@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color:#7777;
+}
+
+.container{
+ 
+    width: 1200px;
+    margin: auto;
+}
+
+/* start nav */
+nav{
+    background-color: blue;
+    overflow: auto;
+}
+
+nav .logo{
+  float: left;
+  width: 80%;
+}
+nav .list{
+    float: left;
+    width: 20%;
+}
+nav .list ul{
+    list-style: none;
+
+}
+nav .list ul a{
+    text-decoration: none;
+    color: whitesmoke;
+    float: left;
+    margin-left: 5px;
+}
+
+/* end nav */
